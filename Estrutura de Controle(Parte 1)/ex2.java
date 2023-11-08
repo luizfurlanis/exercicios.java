@@ -9,7 +9,7 @@ public class ex2 {
         
         a = n * (r * r);
         
-        System.out.printf("A=%.04f\n", a);
+        System.out.printf("A = %.04f\n", a);
                 
         teclado.close();
     }   
