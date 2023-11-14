@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class TrocaDeVetor {
     public static void main(String[] args) throws IOException {
-        int[] array = new int[50];
+        int[] array = new int[100000000];
         Scanner teclado = new Scanner(System.in);
         int temp = 0;
 
