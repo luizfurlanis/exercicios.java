@@ -10,7 +10,6 @@ public class SentençaDançante {
             if(sentenca[j] = null){ 
                 j++; 
             }
-
         teclado.close();
     }
 }

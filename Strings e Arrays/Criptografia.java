@@ -33,6 +33,3 @@ public class Criptografia {
         return line;
     }
 }
-
-
-
