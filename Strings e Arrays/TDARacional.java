@@ -10,17 +10,17 @@ public class TDARacional {
             int d = 0;
             String c = teclado.nextLine();
             char[] e = c.toCharArray();
-                       
-            if(e[5] == '+'){
+
+            if(e[4] == '+'){
                 g = (e[0] * e[12] + e[8] * e[4]); 
                 d = (e[12] * e[4]);
-            } else if(e[5] == '*'){
+            } else if(e[4] == '*'){
                 g = (e[0] * e[8]);
                 d = (e[12] * e[4]);
-            } else if(e[5] == '/'){
+            } else if(e[4] == '/'){
                 g = (e[0] * e[12]);
                 d = (e[8] * e[4]);
-            } else if(e[5] == '-'){
+            } else if(e[4] == '-'){
                 g = (e[0] * e[12] - e[8] * e[4]); 
                 d = (e[12] * e[4]);
             }
@@ -29,4 +29,3 @@ public class TDARacional {
         teclado.close();
     }
 }
-             
