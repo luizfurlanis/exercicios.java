@@ -4,18 +4,14 @@ import java.io.IOException;
 public class Combinador {
     public static void main(String[] args) throws IOException {
         Scanner teclado = new Scanner(System.in);
-        String []a = new String[50];
-        String []b = new String[50];
-        String []ab = new String[100];
+        String c = teclado.nextLine();
+        String g = teclado.nextLine();
 
-        for(int i = 0 ; i < 50; i ++){
-            a[i] = teclado.nextLine();
-            b[i] = teclado.nextLine();
-        }
+        char[] e = c.toCharArray();
+        char[] w = g.toCharArray();
 
         for(int i = 0; i < 100;i ++){
-            ab[i] = a[i] + b[i];
-            System.out.println(ab[i]);
+            System.out.println(e[i] + w[i]);
         }
         teclado.close();
     }

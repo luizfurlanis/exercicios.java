@@ -3,8 +3,8 @@ import java.io.IOException;
 
 public class TrocaDeVetor {
     public static void main(String[] args) throws IOException {
-        int[] array = new int[50];
         Scanner teclado = new Scanner(System.in);
+        int[] array = new int[20];
         int temp = 0;
 
         for(int i = 0; i < 20; i++){
