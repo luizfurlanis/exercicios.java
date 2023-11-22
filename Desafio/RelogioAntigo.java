@@ -27,5 +27,6 @@ public class RelogioAntigo {
         } else {
             Sistem.out.println(minutoFinal);
         }
+        teclado.close();
     }
 }

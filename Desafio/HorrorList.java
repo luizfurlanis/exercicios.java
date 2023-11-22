@@ -11,5 +11,6 @@ public class HorroList {
         for(int i = 0; i < n; i++){
             
         }
+        teclado.close();
     }
 }
